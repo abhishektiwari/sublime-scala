@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+Either[${1:type},${2:type}]
+]]>
+</content>
+	<tabTrigger>type</tabTrigger>
+	<scope>source.scala</scope>
+	<description>type-either</description>
+</snippet>

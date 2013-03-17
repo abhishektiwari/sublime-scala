@@ -1,0 +1,13 @@
+<snippet>
+<content>
+<![CDATA[
+// single dependency, configuration is optional
+libraryDependencies += "${1:groupID}" %% "${2:artifactID}" % "${3:revision}" ${4:% "${5:configuration}"}
+
+]]>
+</content>
+	<tabTrigger>sbt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scala</scope>
+	<description>build.sbt libDep %%</description>
+</snippet>

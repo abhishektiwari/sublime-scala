@@ -1,0 +1,15 @@
+<snippet>
+<content>
+<![CDATA[
+// multi dependency, % "configuration" is optional
+libraryDependencies ++= Seq(
+    ${1:groupID1} %% {2:artifactID1} % ${3:revision1},
+    ${4:groupID1} %% {5:artifactID2} % ${6:revision2},
+)
+]]>
+</content>
+	<tabTrigger>sbt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scala</scope>
+	<description>build.sbt libDep seq</description>
+</snippet>

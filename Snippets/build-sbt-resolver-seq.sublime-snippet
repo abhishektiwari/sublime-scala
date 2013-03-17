@@ -1,0 +1,15 @@
+<snippet>
+<content>
+<![CDATA[
+// add a sequence of maven-style repositories
+resolvers ++= Seq(
+	"${1:name}" at "${2:url}",
+	"${3:name}" at "${4:url}"
+)
+]]>
+</content>
+	<tabTrigger>sbt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scala</scope>
+	<description>build.sbt resolver seq</description>
+</snippet>

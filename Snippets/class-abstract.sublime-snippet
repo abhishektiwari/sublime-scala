@@ -1,0 +1,13 @@
+<snippet>
+<content>
+<![CDATA[
+abstract class ${1:ClassName} {
+	// methods without implementation or parameterless
+	${0}
+}
+]]>
+</content>
+	<tabTrigger>class</tabTrigger>
+	<scope>source.scala</scope>
+	<description>abstract</description>
+</snippet>

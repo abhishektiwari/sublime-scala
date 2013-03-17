@@ -1,0 +1,32 @@
+<snippet>
+<content>
+<![CDATA[
+// Placed in the project/Build.scala
+import sbt._
+import Keys._
+
+object BuildSettings {
+	${1:}
+}
+
+object Resolvers {
+	${2:}
+}
+
+object Dependencies{
+	${3:}
+}
+object ${4:ProjectName}Build extends Build {
+	// See Full Configuration Example Here http://goo.gl/bZQ58
+	import Resolvers._
+	import Dependencies._
+	import BuildSettings._
+	${5:}
+}
+]]>
+</content>
+	<tabTrigger>sbt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scala</scope>
+	<description>Build.scala Full</description>
+</snippet>

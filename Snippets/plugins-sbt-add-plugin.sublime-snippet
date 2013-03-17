@@ -1,0 +1,13 @@
+<snippet>
+<content>
+<![CDATA[
+// Use the $2 plugin 
+addSbtPlugin("${1:groupID}" % "${2:artifactID}" % "${3:revision}")
+
+]]>
+</content>
+	<tabTrigger>sbt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scala</scope>
+	<description>plugins.sbt addPlugin</description>
+</snippet>

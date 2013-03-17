@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+val ${1:varname} = ${2:val}
+]]>
+</content>
+	<tabTrigger>class</tabTrigger>
+	<scope>source.scala</scope>
+	<description>field</description>
+</snippet>

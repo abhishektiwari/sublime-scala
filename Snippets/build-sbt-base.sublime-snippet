@@ -1,0 +1,25 @@
+<snippet>
+<content>
+<![CDATA[
+// build.sbt file: a list of settings, separated by blank lines
+// set the name of the project
+name := "${1:My Project}"
+
+// set the version of the project
+version := "${2:1.0}"
+
+// set the version of the project (optional)
+organization := "${3:org.myproject}"
+
+// set the Scala version used for the project
+scalaVersion := "${4:2.10.0}"
+
+${5:}
+
+]]>
+</content>
+	<tabTrigger>sbt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scala</scope>
+	<description>build.sbt Barebone</description>
+</snippet>

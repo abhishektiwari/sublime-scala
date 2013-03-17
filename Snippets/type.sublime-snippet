@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+Int | String | Float | Boolean | Long | Any
+]]>
+</content>
+	<tabTrigger>type</tabTrigger>
+	<scope>source.scala</scope>
+	<description>type</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+<content>
+<![CDATA[
+private def ${1:method}(${2:${4:arg}: ${5:type}${6:, ${7:arg}: ${8:type}}})${9:: ${10:type}} = {
+	${0}
+}
+]]>
+</content>
+	<tabTrigger>class</tabTrigger>
+	<scope>source.scala</scope>
+	<description>def private</description>
+</snippet>

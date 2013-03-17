@@ -1,0 +1,17 @@
+<snippet>
+<content>
+<![CDATA[
+// Placed in the project/Build.scala
+import sbt._
+import Keys._
+
+object ${1:ProjectName}Build extends Build {
+	// See Full Configuration Example Here http://goo.gl/bZQ58	
+}
+]]>
+</content>
+	<tabTrigger>sbt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scala</scope>
+	<description>Build.scala Barebone</description>
+</snippet>

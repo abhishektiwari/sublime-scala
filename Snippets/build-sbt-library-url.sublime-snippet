@@ -1,0 +1,13 @@
+<snippet>
+<content>
+<![CDATA[
+// single dependency, loading via a jar url
+libraryDependencies += "${1:groupID}" % "${2:artifactID}" % "${3:revision}" from "${4:http://url-to-jar}"
+
+]]>
+</content>
+	<tabTrigger>sbt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scala</scope>
+	<description>build.sbt libDep % URL</description>
+</snippet>
